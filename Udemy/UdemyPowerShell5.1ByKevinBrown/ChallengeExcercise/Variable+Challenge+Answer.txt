@@ -1,0 +1,17 @@
+Run get-help *ipaddress* to get all commands containing the phrase 'ipaddress'. 
+*note: This does require you to assume that the phrase 'IPaddress' will be used within the command
+*note: You could use the get-help *ip*, but you get many more results to scroll through:
+
+get-help *ipaddress*
+
+Verify that the get-netipaddress returns the ip configuration:
+
+get-netipaddress
+
+to create the variable, run the command below:
+
+$IP=get-netipaddress
+
+Type $IP to verify that the variable returns the IP configuration:
+
+$IP
